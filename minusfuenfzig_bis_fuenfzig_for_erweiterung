@@ -1,0 +1,4 @@
+counter = 50
+for counter in range(-50, 51):
+    if counter % 2 != 0:
+        print(counter)
