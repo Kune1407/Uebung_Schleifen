@@ -1,0 +1,4 @@
+Number = -50
+while Number <= 50:
+    print(Number)
+    Number += 1
