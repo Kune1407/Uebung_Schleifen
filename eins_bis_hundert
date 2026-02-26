@@ -1,0 +1,6 @@
+Summe = 0
+Nummer = 1
+while Nummer <= 100:
+    Summe = Summe + Nummer
+    Nummer = Nummer + 1
+print(Summe)
