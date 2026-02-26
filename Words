@@ -1,0 +1,5 @@
+Words = ["Hallo", "Python", "Stopp", "Welt"]
+for Words in Words:
+    print(Words)
+    if Words == "Stopp":
+        break
