@@ -1,0 +1,7 @@
+Word_name = "Informationstechnik"
+vokale = "aeiouAEIOU"
+for buchstabe in Word_name:
+    if buchstabe in vokale:
+        print(buchstabe, end=" ")
+    else:
+        print("_", end=" ")
