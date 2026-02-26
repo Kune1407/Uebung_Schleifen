@@ -1,0 +1,3 @@
+Word = "Python"
+for buchstabe in Word:
+    print(buchstabe, end=" ")
