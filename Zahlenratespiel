@@ -1,0 +1,16 @@
+import random
+zufallszahl = random.randint(1, 100)
+max_versuche = 7
+for versuch in range(1, max_versuche + 1):
+    tipp = int(input(f"Errate die Zahl: "))
+    if tipp == zufallszahl:
+        print("Gewonnen! Du hast die geheime Zahl erraten.")
+        break
+    elif tipp > zufallszahl:
+        print("Deine geratene Zahl ist zu groß.\n")
+    else:
+        print("Deine geratene Zahl ist zu klein\n")
+else:
+    print("Du hast verloren. Versuch es einfach nochmal.")
+    print(f"Es war die Zahl {zufallszahl}")
+    print("--- Ende des Spiels ---")
